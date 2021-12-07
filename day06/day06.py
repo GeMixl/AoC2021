@@ -21,15 +21,32 @@ class Fish:
 
 
 with open("input_day06.txt", "r") as fs:
-    swarm = [[Fish(int(i)) for i in fs.readline().split(",")]]
+    swarm = [int(i) for i in fs.readline().split(",")]
 
-print(swarm[0])
+my_generation = [0] * 9
 
-for day in range(0, 18):
-    swarm.append(swarm[day])
-    for fish in swarm[-1]:
-        if fish.grow() == -1:
-            swarm[-1].append(Fish(9))
-    print(swarm[-1])
+for i in swarm:
+    my_generation[i] += 1
 
-print(len(swarm[-1]))
+print(swarm)
+print(my_generation)
+
+def grow(generation):
+    new_generation = [0]*9
+    new_generation[6] = generation[0]
+    new_generation[1] = generation[2]
+    new_generation[2] = generation[3]
+    new_generation[3] = generation[4]
+    new_generation[4] = generation[5]
+    new_generation[5] = generation[6]
+    new_generation[6] += generation[7]
+    new_generation[7] = generation[8]
+    new_generation[8] = generation[0]
+    new_generation[0] = generation[1]
+
+    return new_generation
+
+
+for i in range(256):
+    my_generation = grow(my_generation)
+    print(my_generation, sum(my_generation))
