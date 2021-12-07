@@ -4,22 +4,6 @@
 # Puzzle input at https://adventofcode.com/2021/day/6/input   #
 ###############################################################
 
-class Fish:
-    def __init__(self, age):
-        self.age = age
-
-    def __repr__(self):
-        return str(self.age)
-
-    def grow(self):
-        self.age -= 1
-        if self.age == -1:
-            self.age = 6
-            return -1
-        else:
-            return self.age
-
-
 with open("input_day06.txt", "r") as fs:
     swarm = [int(i) for i in fs.readline().split(",")]
 
@@ -30,6 +14,7 @@ for i in swarm:
 
 print(swarm)
 print(my_generation)
+
 
 def grow(generation):
     new_generation = [0]*9
@@ -43,7 +28,6 @@ def grow(generation):
     new_generation[7] = generation[8]
     new_generation[8] = generation[0]
     new_generation[0] = generation[1]
-
     return new_generation
 
 
