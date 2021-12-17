@@ -1,7 +1,7 @@
 ###############################################################
 # Advent of Code 2021                                         #
 # Day 1 https://adventofcode.com/2021/day/1                   #
-# Puzzle input at https://adventofcode.com/2021/day/1/input   #
+# Puzzle puzzle_input at https://adventofcode.com/2021/day/1/input   #
 ###############################################################
 with open("input_day01.txt", "r") as fs:
     data = [int(x) for x in fs]

@@ -1,7 +1,7 @@
 ###############################################################
 # Advent of Code 2021                                         #
 # Day 7 https://adventofcode.com/2021/day/7                   #
-# Puzzle input at https://adventofcode.com/2021/day/7/input   #
+# Puzzle puzzle_input at https://adventofcode.com/2021/day/7/input   #
 ###############################################################
 global lookup
 

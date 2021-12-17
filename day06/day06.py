@@ -1,7 +1,7 @@
 ###############################################################
 # Advent of Code 2021                                         #
 # Day 6 https://adventofcode.com/2021/day/6                   #
-# Puzzle input at https://adventofcode.com/2021/day/6/input   #
+# Puzzle puzzle_input at https://adventofcode.com/2021/day/6/input   #
 ###############################################################
 
 with open("input_day06.txt", "r") as fs:

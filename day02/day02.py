@@ -1,7 +1,7 @@
 ###############################################################
 # Advent of Code 2021                                         #
 # Day 1 https://adventofcode.com/2021/day/2                   #
-# Puzzle input at https://adventofcode.com/2021/day/2/input   #
+# Puzzle puzzle_input at https://adventofcode.com/2021/day/2/input   #
 ###############################################################
 with open("input_day02.txt", "r") as fs:
     data = [(i.split(sep=" ")[0], int(i.split(sep=" ")[1])) for i in fs]

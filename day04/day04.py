@@ -1,7 +1,7 @@
 ###############################################################
 # Advent of Code 2021                                         #
 # Day 4 https://adventofcode.com/2021/day/4                   #
-# Puzzle input at https://adventofcode.com/2021/day/4/input   #
+# Puzzle puzzle_input at https://adventofcode.com/2021/day/4/input   #
 ###############################################################
 
 import numpy as np
