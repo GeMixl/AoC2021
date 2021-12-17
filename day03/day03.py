@@ -1,6 +1,6 @@
 ###############################################################
 # Advent of Code 2021                                         #
-# Day 1 https://adventofcode.com/2021/day/3                   #
+# Day 3 https://adventofcode.com/2021/day/3                   #
 # Puzzle input at https://adventofcode.com/2021/day/3/input   #
 ###############################################################
 
