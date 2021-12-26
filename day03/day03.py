@@ -1,7 +1,7 @@
 ###############################################################
 # Advent of Code 2021                                         #
 # Day 3 https://adventofcode.com/2021/day/3                   #
-# Puzzle puzzle_input at https://adventofcode.com/2021/day/3/input   #
+# Puzzle input at https://adventofcode.com/2021/day/3/input   #
 ###############################################################
 
 def reduce_by_bit_crit1(d, k):

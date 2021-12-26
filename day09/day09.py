@@ -1,9 +1,8 @@
 ###############################################################
 # Advent of Code 2021                                         #
-# Day 7 https://adventofcode.com/2021/day/7                   #
-# Puzzle puzzle_input at https://adventofcode.com/2021/day/7/input   #
+# Day 9 https://adventofcode.com/2021/day/9                   #
+# Puzzle input at https://adventofcode.com/2021/day/9/input   #
 ###############################################################
-# https://github.com/plan-x64/advent-of-code-2021/blob/main/advent/day09.py
 
 import numpy as np
 
