@@ -4,7 +4,7 @@
 # Puzzle input at https://adventofcode.com/2021/day/9/input   #
 ###############################################################
 
-import numpy as np
+    import numpy as np
 
 
 def getBasin(x, y, N, L, arr):
